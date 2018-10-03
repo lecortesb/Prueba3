@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package javaapplication1;
+import java.util.*;
 
 /**
  *
@@ -16,6 +17,11 @@ public class JavaApplication1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner entrada=new Scanner(System.in);
+        int x;
+        x=entrada.nextInt();
+        System.out.println(""+x);
+        
     }
     
 }
