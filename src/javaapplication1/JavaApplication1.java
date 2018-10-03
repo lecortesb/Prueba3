@@ -19,9 +19,11 @@ public class JavaApplication1 {
         // TODO code application logic here
         Scanner entrada=new Scanner(System.in);
         int x;
+        double y;
         x=entrada.nextInt();
         System.out.println(""+x);
-        
+        y=entrada.nextDouble();
+        System.out.println(""+y);
     }
     
 }
